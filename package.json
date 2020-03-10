@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kokiebisu/battlesnake_2020/issues"
   },
-  "homepage": "https://github.com/kokiebisu/battlesnake_2020#readme"
+  "homepage": "https://github.com/kokiebisu/battlesnake_2020#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
