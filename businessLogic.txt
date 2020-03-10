@@ -1,0 +1,35 @@
+/// Flow
+FindClosestFood()
+if (!ValidateHitSnake() || !ValidateHitWall()) {
+    Move()
+}
+
+/// Functions
+
+// FindClosestFood()
+paths = food.map(foodcoordinate, index => {
+    distanceX = Math.abs(foodCoord[0] - HEAD.X)
+    distanceY = Math.abs(foodCoord[1] - HEAD.Y)
+    TotalDistance = distanceX + distanceY
+    if (closestFood > TotalDistance) {
+        closestFood = TotalDistance
+    }
+    return TargetObject (We may not have to return in this function, just update the closestfood variable...)
+})
+
+// Move
+move(board, me)
+const {height, width, food, snakes} = board;
+let head = me.body[0]
+if (foodExist()) {
+    let move = getFood()
+    res.send(move)
+}
+
+// TargetObject {
+    pathCoord: {
+        x: number,
+        y: number
+    },
+    distance: number
+}
