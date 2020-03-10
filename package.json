@@ -2,9 +2,9 @@
   "name": "battlesnake",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "run": "node server"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/kokiebisu/battlesnake_2020#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node": "^13.10.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
