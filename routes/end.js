@@ -1,11 +1,9 @@
 module.exports = (app) => {
-  app.get('/start', async (req, res) => {
-    console.log('received start');
+  app.get('/move', async (req, res) => {
     try {
       const resData = {
-        color: '#3d5a6c',
-        headType: 'silly',
-        tailType: 'bolt'
+        status: 200,
+        message: 'Received End. Bye.'
       };
       return res.json(resData);
     } catch (err) {
