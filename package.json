@@ -19,5 +19,8 @@
   "homepage": "https://github.com/kokiebisu/battlesnake_2020#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
