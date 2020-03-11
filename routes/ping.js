@@ -1,5 +1,5 @@
 module.exports = (app) => {
-  app.get('/ping', async (req, res) => {
+  app.post('/ping', (req, res) => {
     try {
       const resData = {
         status: 200,

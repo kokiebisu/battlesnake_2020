@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES7",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true
+    },
+    "files": [
+        "./controller/interface",
+        "./controller/MoveController"
+    ]
+}

@@ -1,5 +1,5 @@
 module.exports = (app) => {
-  app.get('/start', async (req, res) => {
+  app.post('/start', (req, res) => {
     console.log('received start');
     try {
       const resData = {

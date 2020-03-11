@@ -1,5 +1,5 @@
 module.exports = (app) => {
-  app.get('/move', async (req, res) => {
+  app.post('/move', (req, res) => {
     try {
       const resData = {
         status: 200,
