@@ -1,4 +1,4 @@
-interface Coord {
+export interface Coord {
     [key: string]: number,
     x: number,
     y: number
@@ -14,7 +14,7 @@ export interface Snake {
     id: string,
     name: string,
     health: number,
-    body: Coord[],
+    body: SnakeBodyPart[],
     shout: string
 }
 
