@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "system",
+        "noImplicitAny": true,
+        "moduleResolution": "Node",
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outDir": "./js_controller"
+    },
+    "files": [
+        "ts_controller/MoveController",
+        "ts_controller/DangerDetector",
+        "ts_controller/Moves",
+        "ts_controller/PathFinder",
+    ]
+}

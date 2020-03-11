@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "tsc -p tsconfig.json "
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,9 @@
     "node": "^13.10.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.8.3",
+    "typescript-cli": "^0.1.0"
   }
 }
